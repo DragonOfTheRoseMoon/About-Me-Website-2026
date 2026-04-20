@@ -1,0 +1,29 @@
+@import 'tailwindcss';
+@import '@skeletonlabs/skeleton';
+@import '../../auroratheme.css';
+@source '../node_modules/@skeletonlabs/skeleton-svelte/dist';
+
+
+
+html, body {
+    height: 100%;
+}
+
+body {
+    min-height: 100vh;
+    background-color:hsla(266,100%,2%,1);
+    background-image:
+    radial-gradient(at 67% 35%, hsla(356,0%,0%,1) 0px, transparent 50%),
+    radial-gradient(at 30% 60%, hsla(259,0%,0%,1) 0px, transparent 50%),
+    radial-gradient(at 100% 100%, hsla(265,0%,0%,1) 0px, transparent 50%),
+    radial-gradient(at 42% 9%, hsla(272,0%,0%,1) 0px, transparent 50%),
+    radial-gradient(at 57% 99%, hsla(259,0%,0%,1) 0px, transparent 50%),
+    radial-gradient(at 0% 100%, hsla(244,58%,14%,1) 0px, transparent 50%),
+    radial-gradient(at 0% 46%, hsla(265,49%,14%,1) 0px, transparent 50%),
+    radial-gradient(at 100% 0%, hsla(239,58%,14%,1) 0px, transparent 50%),
+    radial-gradient(at 100% 43%, hsla(268,63%,10%,1) 0px, transparent 50%),
+    radial-gradient(at 0% 0%, hsla(247,75%,10%,1) 0px, transparent 50%),
+    radial-gradient(at 100% 100%, hsla(264,39%,47%,1) 0px, transparent 50%);
+    background-attachment: fixed;
+    background-size: cover;
+}
