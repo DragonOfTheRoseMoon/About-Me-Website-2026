@@ -7,10 +7,12 @@
 <AppBar class="w-full">
     <AppBar.Toolbar class="grid grid-cols-2">
 
-        <AppBar.Lead class="flex items-center gap-3 pt-2 px-3">
+    <AppBar.Lead class="flex items-center gap-3 pt-2 px-3">
+        <a href="/" class="flex items-center gap-3">
             <img src="/images/2026LogoDesignInvert.png" alt="Logo" class="h-10 md:h-15 lg:h-20 w-auto" />
             <p class="lg:text-4xl">Caitlin Wells</p>
-        </AppBar.Lead>
+        </a>
+    </AppBar.Lead>
 
         <AppBar.Trail class="flex justify-end items-center gap-3 px-3">
             <Menu onSelect={(details) => goto(details.value)}>
