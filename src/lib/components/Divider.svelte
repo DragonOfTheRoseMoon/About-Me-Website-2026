@@ -1,0 +1,1 @@
+<div class="w-full max-w-4xl mx-auto h-px bg-linear-to-r from-transparent via-primary-500 to-transparent"></div>

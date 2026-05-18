@@ -57,6 +57,7 @@
 		"svelte"
 	],
 	"dependencies": {
-		"@lucide/svelte": "^1.11.0"
+		"@lucide/svelte": "^1.11.0",
+		"github-calendar": "^2.3.4"
 	}
 }
