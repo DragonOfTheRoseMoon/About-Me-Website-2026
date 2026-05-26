@@ -1,6 +1,7 @@
 @import 'tailwindcss';
 @import '@skeletonlabs/skeleton';
 @import '../../auroratheme.css';
+@import 'devicon/devicon.min.css';
 @source '../node_modules/@skeletonlabs/skeleton-svelte/dist';
 
 
