@@ -21,6 +21,13 @@
     </div>
     
 <style>
+    :global(.github-calendar) {
+    border: none !important;
+    }
+    :global(.graph-before-activity-overview) {
+    border: none !important;
+    }
+
     .calendar-wrapper {
         min-width: 300px;
         max-width: 800px;
