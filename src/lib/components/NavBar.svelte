@@ -10,7 +10,7 @@
     <AppBar.Lead class="flex items-center gap-3 pt-2 px-3">
         <a href="/" class="flex items-center gap-3">
             <img src="/images/2026LogoDesignInvert.png" alt="Logo" class="h-10 md:h-15 lg:h-20 w-auto" />
-            <p class="lg:text-4xl">Caitlin Wells</p>
+            <p class="hover:text-[#a277ff] lg:text-4xl">Caitlin Wells</p>
         </a>
     </AppBar.Lead>
 
@@ -24,16 +24,16 @@
                     <Menu.Positioner>
                         <Menu.Content class="p-3 lg:p-4 rounded-lg" style="background-color: rgba(18, 18, 28, 0.95);">
                             <Menu.Item value="/">
-                                <Menu.ItemText class="lg:text-lg">Home</Menu.ItemText>
+                                <Menu.ItemText class="hover:underline hover:text-[#a277ff] lg:text-lg">Home</Menu.ItemText>
                             </Menu.Item>
                             <Menu.Item value="/about">
-                                <Menu.ItemText class="lg:text-lg">About Me</Menu.ItemText>
+                                <Menu.ItemText class="hover:underline hover:text-[#4426ca] lg:text-lg">About Me</Menu.ItemText>
                             </Menu.Item>
                             <Menu.Item value="/work">
-                                <Menu.ItemText class="lg:text-lg">View My Work</Menu.ItemText>
+                                <Menu.ItemText class="hover:underline hover:text-[#f694ff] lg:text-lg">View My Work</Menu.ItemText>
                             </Menu.Item>
                             <Menu.Item value="/contact">
-                                <Menu.ItemText class="lg:text-lg">Contact Me</Menu.ItemText>
+                                <Menu.ItemText class="hover:underline hover:text-[#a277ff] lg:text-lg">Contact Me</Menu.ItemText>
                             </Menu.Item>
                         </Menu.Content>
                     </Menu.Positioner>

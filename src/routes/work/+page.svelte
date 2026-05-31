@@ -1,6 +1,7 @@
 <script lang="ts">
     import { GitHubCalendar, Divider } from '$lib/components';
     import { projects } from '$lib/data/projects';
+    import { ArrowRight } from '@lucide/svelte';
     import ProjectCard from '$lib/components/ProjectCard.svelte';
     
     const visibleProjects = projects.filter(p => p.visible);
@@ -27,4 +28,14 @@
     {#each visibleProjects as project}
         <ProjectCard {project} />
     {/each}
+
+<div class="flex flex-col items-center w-full">
+    <Divider />
+    <a href="/contact" class="hover:text-[#a277ff] hover:scale-105 transition hover:underline flex items-center gap-2 py-6">
+        <h2 class="text-4xl">Contact Me</h2>
+        <ArrowRight />
+    </a>
 </div>
+
+</div>
+

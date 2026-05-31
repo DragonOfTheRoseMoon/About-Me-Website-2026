@@ -8,28 +8,23 @@
 </script>
 
 
-
-
 <div class="w-3/4 lg:max-w-5xl rounded-xl backdrop-blur-md p-4 text-center" style="background-color: rgba(162, 119, 255, 0.08) !important;">
 
-    
-    <div class="pt-2">
-        <Divider />
-    </div>
-    <h2 class="text-xl font-bold m-2">{project.title}</h2>
+    <div class="w-full pt-2">
     <Divider />
-
-
+    <h2 class="text-md md:text-xl lg:text-2xl font-bold m-2">{project.title}</h2>
+    <Divider />
+    </div>
     
     {#if project.image}
-        <div class="w-full h-40 md:h-52 lg:h-72">
-            <img class="w-full h-full object-contain py-4" src={project.image} alt={project.title} />
+        <div class="w-full h-60 md:h-80 lg:h-100">
+            <img class="w-full h-full object-contain py-3" loading="eager" src={project.image} alt={project.title} />
         </div>
     {:else}
         <div class="h-8"></div>
     {/if}
 
-    <div class="flex flex-wrap gap-2 justify-center py-3">
+    <div class="flex flex-wrap gap-3 justify-center py-3">
         {#each project.tags as tag}
             {#if tag.icon}
                 <span class="badge preset-filled">
@@ -45,11 +40,11 @@
         {/each}
     </div>
 
-    <p class="mt-4">{project.description}</p>
+    <p class="text-md md:text-xl lg:text-2xl mt-4">{project.description}</p>
 
     {#if project.githubUrl}
         <div class="mt-4">
-            <a href={project.githubUrl} class="btn preset-outlined-primary-500 hover:preset-filled-primary-500 transition duration-300">
+            <a href={project.githubUrl} class="btn preset-outlined-primary-500 hover:scale-110 hover:preset-filled-primary-500 transition duration-300">
                 <i class="devicon-github-original"></i> See The Code
             </a>
         </div>
