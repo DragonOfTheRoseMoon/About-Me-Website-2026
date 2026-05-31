@@ -1,1 +1,1 @@
-<div class="w-full max-w-4xl mx-auto h-px bg-linear-to-r from-transparent via-primary-500 to-transparent"></div>
+<div class="w-full max-w-4xl mx-auto h-px" style="background: linear-gradient(to right, transparent, #a277ff, #a277ff, #f694ff, #a277ff, #a277ff, transparent)"></div>
