@@ -12,6 +12,7 @@ html, body {
 
 body {
     min-height: 100vh;
+    color: white;
     background-color:hsla(266,100%,2%,1);
     background-image:
     radial-gradient(at 67% 35%, hsla(356,0%,0%,1) 0px, transparent 50%),
