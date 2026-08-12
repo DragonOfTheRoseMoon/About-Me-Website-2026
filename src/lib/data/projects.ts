@@ -33,6 +33,23 @@ export const projects: Project[] = [
     },
 
     {
+        title: "Libra Draconis - Active Development",
+        description: "Currently active project taking my concepts of my AutoHoard python project and turning it into a full-stack web app. Chosen framework is Sveletkit, using Typescript as a back end connected via Drizzle ORM to a Postgres Database. Upgrades are to include containerizing for self-hosting, use of multiple API's, wishlist features, and in app collection management. See GitHub for the most up to date project details!",
+        image: "/images/LibraDraconisWIP.png",
+        tags:[
+            { label: "Svelte 5", icon: "devicon-svelte-plain" },
+            { label: "Tailwind CSS", icon: "devicon-tailwindcss-original" },
+            { label: "Typescript", icon: "devicon-typescript-plain" },
+            { label: "Skeleton UI", icon: null },
+            { label: "PostgresSQL", icon: "devicon-postgresql-plain" },
+            { label: "Docker", icon: "devicon-docker-plain" }
+            ], 
+        githubUrl: "https://github.com/DragonOfTheRoseMoon/LibraDraconis",
+        liveUrl: null,
+        visible: true
+    },
+
+    {
         title: "AutoHoard - Book Search",
         description: "A python and bootstrap project using the OpenLibrary API in order to use a barcode scanner to scan, automatically search, and populate data in the UI. From there you may correct information, and then confirm it, which inserts it into a SQLite Database for tracking.",
         image: "/images/AutoHoard.png",
