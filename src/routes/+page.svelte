@@ -10,7 +10,7 @@
 
 	<div class="flex w-full max-w-4xl flex-col items-center gap-2">
 		<Divider />
-		<p class="text-2xl text-surface-300 md:text-3xl lg:text-[42px]">Support Engineer</p>
+		<p class="text-2xl text-surface-300 md:text-3xl lg:text-[42px]">Software Engineer</p>
 		<p class="text-xl text-surface-400 md:text-3xl lg:text-[36px]">
 			Problem solving and systems thinking
 		</p>

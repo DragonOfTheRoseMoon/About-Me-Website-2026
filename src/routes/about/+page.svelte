@@ -22,16 +22,17 @@
 			tools matter as much as the craft itself. Information science taught me to see the whole
 			system. Engineering is where those two things meet.
 		</p>
+
 		<p class="text-sm md:text-xl lg:text-2xl">
-			In my current role I work with large scale enterprise customers across technical support and
-			engineering, building tools to streamline their workflows, maintaining and reporting on SQL
-			databases, automating log parsing for preventative maintenance, and triaging bugs and
-			enhancement requests directly with engineering teams.
+			In my current role I work in R&D as a blend of Software Engineer and QA, and the first line of defense
+			for incomming bugs and enhancement requests. I see our systems and its rhythms from end to end from the
+			inital contact point to the deployment of the next version.
 		</p>
+
 		<p class="text-sm md:text-xl lg:text-2xl">
-			I want to be the direct driving force behind building and maintaining a codebase. The years
-			I've spent at the intersection of users and engineering have given me a perspective that
-			informs how I want to build, and the conviction to see it through.
+    		I want to be the direct driving force behind building and maintaining a codebase. Working
+    		where users and engineering meet has given me a perspective that informs how I want to build,
+    		and the conviction to see it through.
 		</p>
 	</div>
 
