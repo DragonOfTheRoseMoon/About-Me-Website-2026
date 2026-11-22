@@ -3,7 +3,9 @@
 	import { NavBar, StarField } from '#lib/components/index.js';
 	import { page } from '$app/state';
 	import { fade } from 'svelte/transition';
-	const { children } = $props();
+	import type { Snippet } from 'svelte';
+
+	const { children }: { children: Snippet } = $props();
 </script>
 
 <div class="relative">

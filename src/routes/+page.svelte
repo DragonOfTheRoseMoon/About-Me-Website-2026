@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { User, FolderOpen, AtSign, ArrowRight } from '@lucide/svelte';
 	import { Divider } from '#lib/components/index.js';
+	import { resolve } from '$app/paths';
 </script>
 
 <section class="flex min-h-screen flex-col items-center justify-center px-4 text-center">
@@ -18,7 +19,7 @@
 
 	<div class="flex max-w-4xl flex-col items-center gap-5">
 		<a
-			href="/about"
+			href={resolve('/about')}
 			class="flex items-center gap-2 py-6 text-[#a277ff] transition hover:scale-105 lg:text-white lg:hover:text-[#a277ff]"
 		>
 			<User size={40} />
@@ -27,7 +28,7 @@
 		</a>
 
 		<a
-			href="/work"
+			href={resolve('/work')}
 			class="flex items-center gap-2 py-6 text-[#6240fa] transition hover:scale-105 lg:text-white lg:hover:text-[#6240fa]"
 		>
 			<FolderOpen size={40} />
@@ -36,7 +37,7 @@
 		</a>
 
 		<a
-			href="/contact"
+			href={resolve('/contact')}
 			class="flex items-center gap-2 py-6 text-[#cc5dff] transition hover:scale-105 lg:text-white lg:hover:text-[#cc5dff]"
 		>
 			<AtSign size={40} />

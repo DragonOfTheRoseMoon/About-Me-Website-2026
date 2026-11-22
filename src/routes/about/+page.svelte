@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { resolve } from '$app/paths';
 	import { ArrowRight } from '@lucide/svelte';
 	import { Divider } from '#lib/components/index.js';
 </script>
@@ -37,7 +38,7 @@
 	<Divider />
 
 	<a
-		href="/work"
+		href={resolve('/work')}
 		class="flex items-center gap-2 py-6 transition hover:scale-105 hover:text-[#a277ff] hover:underline"
 	>
 		<h2 class="text-4xl">View My Work</h2>

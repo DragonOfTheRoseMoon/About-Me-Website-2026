@@ -31,7 +31,7 @@
 </script>
 
 <div class="starfield" aria-hidden="true">
-	{#each stars as star}
+	{#each stars as star, i (i)}
 		<span
 			class="star"
 			style="

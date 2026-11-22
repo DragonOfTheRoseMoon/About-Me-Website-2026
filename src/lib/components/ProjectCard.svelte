@@ -29,7 +29,7 @@
 	{/if}
 
 	<div class="flex flex-wrap justify-center gap-3 py-3">
-		{#each project.tags as tag}
+		{#each project.tags as tag (tag.label)}
 			{#if tag.icon}
 				<span class="badge preset-filled">
 					<i class={tag.icon}></i>
@@ -49,6 +49,8 @@
 		<div class="mt-4">
 			<a
 				href={project.githubUrl}
+				rel="external noopener noreferrer"
+				target="_blank"
 				class="btn preset-outlined-primary-500 transition duration-300 hover:scale-110 hover:preset-filled-primary-500"
 			>
 				<i class="devicon-github-original"></i> See The Code

@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { resolve } from '$app/paths';
 	import { GitHubCalendar, Divider } from '#lib/components/index.js';
 	import { projects } from '#lib/data/projects.js';
 	import { ArrowRight } from '@lucide/svelte';
@@ -25,14 +26,14 @@
 </section>
 
 <div class="flex flex-col items-center gap-6">
-	{#each visibleProjects as project}
+	{#each visibleProjects as project (project.title)}
 		<ProjectCard {project} />
 	{/each}
 
 	<div class="flex w-full flex-col items-center">
 		<Divider />
 		<a
-			href="/contact"
+			href={resolve('/contact')}
 			class="flex items-center gap-2 py-6 transition hover:scale-105 hover:text-[#a277ff] hover:underline"
 		>
 			<h2 class="text-4xl">Contact Me</h2>

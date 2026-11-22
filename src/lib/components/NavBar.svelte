@@ -2,12 +2,13 @@
 	import { AppBar, Menu, Portal } from '@skeletonlabs/skeleton-svelte';
 	import { MenuIcon } from '@lucide/svelte';
 	import { goto } from '$app/navigation';
+	import { resolve } from '$app/paths';
 </script>
 
 <AppBar class="w-full">
 	<AppBar.Toolbar class="grid grid-cols-2">
 		<AppBar.Lead class="flex items-center gap-3 px-3 pt-2">
-			<a href="/" class="flex items-center gap-3">
+			<a href={resolve('/')} class="flex items-center gap-3">
 				<img
 					src="/images/2026LogoDesignInvert.png"
 					alt="Logo"
@@ -18,7 +19,7 @@
 		</AppBar.Lead>
 
 		<AppBar.Trail class="flex items-center justify-end gap-3 px-3">
-			<Menu onSelect={(details) => goto(details.value)}>
+			<Menu onSelect={(details) => goto(resolve(details.value as Parameters<typeof resolve>[0]))}>
 				<Menu.Trigger
 					class="btn-icon size-8 preset-outlined-primary-500 transition duration-300 hover:preset-filled-primary-500 lg:size-12"
 				>

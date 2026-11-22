@@ -10,6 +10,8 @@
 			responsive: true,
 			tooltips: true,
 			global_stats: false
+		}).catch((error: unknown) => {
+			console.error('Failed to load GitHub calendar', error);
 		});
 	});
 </script>
