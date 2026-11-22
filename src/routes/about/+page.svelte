@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { ArrowRight } from '@lucide/svelte';
-	import { Divider } from '$lib/components';
+	import { Divider } from '#lib/components/index.js';
 </script>
 
 <section class="flex min-h-screen flex-col items-center justify-center px-4 text-center">

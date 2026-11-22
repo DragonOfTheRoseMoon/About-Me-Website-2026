@@ -1,8 +1,8 @@
 <script lang="ts">
-	import { GitHubCalendar, Divider } from '$lib/components';
-	import { projects } from '$lib/data/projects';
+	import { GitHubCalendar, Divider } from '#lib/components/index.js';
+	import { projects } from '#lib/data/projects.js';
 	import { ArrowRight } from '@lucide/svelte';
-	import ProjectCard from '$lib/components/ProjectCard.svelte';
+	import ProjectCard from '#lib/components/ProjectCard.svelte';
 
 	const visibleProjects = projects.filter((p) => p.visible);
 </script>

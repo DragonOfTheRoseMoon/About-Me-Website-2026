@@ -1,6 +1,6 @@
 <script lang="ts">
-	import type { Project } from '$lib/types/types';
-	import { Divider } from '$lib/components';
+	import type { Project } from '#lib/types/types.js';
+	import { Divider } from '#lib/components/index.js';
 
 	const { project }: { project: Project } = $props();
 </script>
