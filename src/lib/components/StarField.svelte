@@ -64,14 +64,21 @@
 	}
 
 	@keyframes twinkle {
-		0%, 100% { opacity: 0.015; transform: scale(0.85); }
-		50%      { opacity: 1; transform: scale(1.1); }
+		0%,
+		100% {
+			opacity: 0.015;
+			transform: scale(0.85);
+		}
+		50% {
+			opacity: 1;
+			transform: scale(1.1);
+		}
 	}
 
-    @media (prefers-reduced-motion: reduce) {
-        .star {
-            animation: none;
-            opacity: 0.7;
-        }
-    }
+	@media (prefers-reduced-motion: reduce) {
+		.star {
+			animation: none;
+			opacity: 0.7;
+		}
+	}
 </style>

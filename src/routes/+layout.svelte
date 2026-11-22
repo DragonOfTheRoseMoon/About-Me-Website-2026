@@ -1,7 +1,7 @@
 <script lang="ts">
 	import './layout.css';
 	import { NavBar, StarField } from '$lib/components';
-	import { page } from '$app/state'
+	import { page } from '$app/state';
 	import { fade } from 'svelte/transition';
 	const { children } = $props();
 </script>

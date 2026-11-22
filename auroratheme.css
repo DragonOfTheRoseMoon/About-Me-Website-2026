@@ -2,7 +2,9 @@
 	--text-scaling: 1.067;
 	--base-font-color: var(--color-surface-950);
 	--base-font-color-dark: var(--color-surface-50);
-	--base-font-family: Bahnschrift, 'DIN Alternate', 'Franklin Gothic Medium', 'Nimbus Sans Narrow', sans-serif-condensed, sans-serif;
+	--base-font-family:
+		Bahnschrift, 'DIN Alternate', 'Franklin Gothic Medium', 'Nimbus Sans Narrow',
+		sans-serif-condensed, sans-serif;
 	--base-font-size: inherit;
 	--base-line-height: inherit;
 	--base-font-weight: normal;
@@ -83,12 +85,12 @@
 	--color-secondary-contrast-900: var(--color-secondary-contrast-dark);
 	--color-secondary-contrast-950: var(--color-secondary-contrast-light);
 	--color-tertiary-50: oklch(95% 0.08 300deg);
-	--color-tertiary-100: oklch(90% 0.10 300deg);
+	--color-tertiary-100: oklch(90% 0.1 300deg);
 	--color-tertiary-200: oklch(85% 0.13 300deg);
 	--color-tertiary-300: oklch(80% 0.16 300deg);
 	--color-tertiary-400: oklch(75% 0.19 300deg);
 	--color-tertiary-500: oklch(70% 0.35 300deg);
-	--color-tertiary-600: oklch(62% 0.20 300deg);
+	--color-tertiary-600: oklch(62% 0.2 300deg);
 	--color-tertiary-700: oklch(54% 0.18 300deg);
 	--color-tertiary-800: oklch(46% 0.15 300deg);
 	--color-tertiary-900: oklch(38% 0.12 300deg);
@@ -205,5 +207,7 @@
 }
 
 @layer base {
-  h1 { font-size: var(--text-5xl); }
+	h1 {
+		font-size: var(--text-5xl);
+	}
 }
